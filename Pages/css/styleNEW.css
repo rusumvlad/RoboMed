@@ -1,0 +1,714 @@
+body {
+
+  font-family: "Poppins", Arial, sans-serif;
+
+  font-size: 14px;
+
+  line-height: 1.8;
+
+  font-weight: normal;
+
+  background: #fafafa;
+
+  color: gray; }
+
+
+
+a {
+
+  -webkit-transition: .3s all ease;
+
+  -o-transition: .3s all ease;
+
+  transition: .3s all ease;
+
+  color: #f8b739; }
+
+  a:hover, a:focus {
+
+    text-decoration: none !important;
+
+    outline: none !important;
+
+    -webkit-box-shadow: none;
+
+    box-shadow: none; }
+
+
+
+button {
+
+  -webkit-transition: .3s all ease;
+
+  -o-transition: .3s all ease;
+
+  transition: .3s all ease; }
+
+  button:hover, button:focus {
+
+    text-decoration: none !important;
+
+    outline: none !important;
+
+    -webkit-box-shadow: none !important;
+
+    box-shadow: none !important; }
+
+
+
+h1, h2, h3, h4, h5,
+
+.h1, .h2, .h3, .h4, .h5 {
+
+  line-height: 1.5;
+
+  font-weight: 400;
+
+  font-family: "Poppins", Arial, sans-serif;
+
+  color: #000; }
+
+
+
+.ftco-section {
+
+  padding: 7em 0; }
+
+
+
+.ftco-no-pt {
+
+  padding-top: 0; }
+
+
+
+.ftco-no-pb {
+
+  padding-bottom: 0; }
+
+
+
+.heading-section {
+
+  font-size: 28px;
+
+  color: #000; }
+
+  .heading-section small {
+
+    font-size: 18px; }
+
+
+
+.img {
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-position: center center; }
+
+
+
+.navbar {
+
+  padding: 15px 10px;
+
+  background: #fff;
+
+  border: none;
+
+  border-radius: 0;
+
+  margin-bottom: 40px;
+
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+
+
+
+.navbar-btn {
+
+  -webkit-box-shadow: none;
+
+  box-shadow: none;
+
+  outline: none !important;
+
+  border: none; }
+
+
+
+.line {
+
+  width: 100%;
+
+  height: 1px;
+
+  border-bottom: 1px dashed #ddd;
+
+  margin: 40px 0; }
+
+
+
+.wrapper {
+
+  width: 100%; }
+
+
+
+#sidebar {
+
+ 
+
+  min-width: 300px;
+
+  max-width: 300px;
+
+  background: #1b3685;
+
+  color: #fff;
+
+  -webkit-transition: all 0.3s;
+
+  -o-transition: all 0.3s;
+
+  transition: all 0.3s; }
+
+  #sidebar.active {
+
+    margin-left: -300px; }
+
+  #sidebar .logo {
+
+    display: block;
+
+    width: 120px;
+
+    height: 120px;
+
+    margin: 0 auto; }
+
+    #sidebar .logo span {
+
+      display: block; }
+
+  #sidebar ul.components {
+
+    padding: 0; }
+
+  #sidebar ul li {
+
+    font-size: 16px; }
+
+    #sidebar ul li > ul {
+
+      margin-left: 10px; }
+
+      #sidebar ul li > ul li {
+
+        font-size: 14px; }
+
+    #sidebar ul li a {
+
+      padding: 10px 0;
+
+      display: block;
+
+      color: #fff;
+
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+      #sidebar ul li a:hover {
+
+        color: #f8b739; }
+
+    #sidebar ul li.active > a {
+
+      background: transparent;
+
+      color: #f8b739; }
+
+  @media (max-width: 991.98px) {
+
+    #sidebar {
+
+      margin-left: -300px; }
+
+      #sidebar.active {
+
+        margin-left: 0; } }
+
+  
+
+a[data-toggle="collapse"] {
+
+  position: relative; }
+
+
+
+.dropdown-toggle::after {
+
+  display: block;
+
+  position: absolute;
+
+  top: 50%;
+
+  right: 0;
+
+  -webkit-transform: translateY(-50%);
+
+  -ms-transform: translateY(-50%);
+
+  transform: translateY(-50%); }
+
+
+
+@media (max-width: 991.98px) {
+
+  #sidebarCollapse span {
+
+    display: none; } }
+
+
+
+#content {
+
+  width: 100%;
+
+  padding: 0;
+
+  min-height: 100vh;
+
+  -webkit-transition: all 0.3s;
+
+  -o-transition: all 0.3s;
+
+  transition: all 0.3s; }
+
+  #content ul li a:hover {
+
+    color: #f8b739 !important; }
+
+  #content ul li.active > a{
+
+    color: #f8b739 !important;
+
+  }
+
+.btn.btn-primary {
+
+  background: #1b3685;
+
+  border-color: #1b3685; }
+
+  .btn.btn-primary:hover, .btn.btn-primary:focus {
+
+    background: #1b3685 !important;
+
+    border-color: #1b3685 !important; }
+
+/* Updates 2020 */
+
+.color-nav{
+
+  background-color: #1b3685 !important;
+
+}
+
+.doctor-color{
+
+  color: #fff !important;
+
+}
+
+
+
+/*Carousel Modify*/
+
+.carousel-inner img{
+
+  height:100%;
+
+  width:100%;
+
+}
+
+.carousel-caption{
+
+  position:absolute;
+
+  top:50%;
+
+  transform: translateY(-50%)
+
+}
+
+.carousel-caption h1{
+
+  font-size:150%;
+
+  text-transform: uppercase;
+
+  text-shadow: 1px 1px 15px #1b3685;
+
+  color: #fff !important;}
+
+  @media (min-width: 576px) {
+
+    .carousel-caption h1{
+
+      font-size:180%;
+
+      top:50%; } }
+
+  @media (min-width: 768px) {
+
+    .carousel-caption h1 {
+
+      font-size:300%; } }
+
+  @media (min-width: 992px) {
+
+    .carousel-caption h1 {
+
+      font-size:500%; } }
+
+  @media (min-width: 1200px) {
+
+    .carousel-caption h1 {
+
+      font-size:500%; } }
+
+  
+
+
+
+.carousel-caption h3{
+
+  font-size:100%;
+
+  font-weight:300;
+
+  text-shadow:1px 1px 10px #1b3685;
+
+  color: #fff !important; 
+
+  padding-bottom: 1rem;}
+
+  @media (min-width: 576px) {
+
+    .carousel-caption h3{
+
+      font-size:130%; } }
+
+  @media (min-width: 768px) {
+
+    .carousel-caption h3 {
+
+      font-size:150%; } }
+
+  @media (min-width: 992px) {
+
+    .carousel-caption h3 {
+
+      font-size:300%; } }
+
+  @media (min-width: 1200px) {
+
+    .carousel-caption h3 {
+
+      font-size:300%; } }
+
+/*Detalii Counter/Statistici */
+
+.counter {
+
+        background-color:#1b3685;
+
+        padding: 20px 0;
+
+        border-radius: 5px;
+
+        margin-bottom: 10px !important;
+
+        border-top-right-radius:50px;
+
+        border-bottom-left-radius:50px;
+
+        transition:1s;
+
+        color: #f8b739 ;
+
+    }
+
+.counter:hover{
+
+    border-top-right-radius:0;
+
+    border-bottom-left-radius:0;
+
+    border-top-left-radius:50px;
+
+    border-bottom-right-radius:50px;
+
+    transition:1s;
+
+    background-color:#f8b739;
+
+    color:#1b3685;
+
+}
+
+.counter:hover > .count-title{
+
+  color:#1b3685;
+
+  transition:1s;
+
+}
+
+
+
+.count-title {
+
+        font-size: 50px;
+
+        font-weight: normal;
+
+        margin-top: 10px;
+
+        margin-bottom: 0;
+
+        text-align: center;
+
+        color: #f8b739 ;
+
+        transition:1s;
+
+    }
+
+.count-title-h2{
+
+  font-size: 50px;
+
+  font-weight: normal;
+
+  margin-top: 10px;
+
+  margin-bottom: 0;
+
+  text-align: center;
+
+  color: #1b3685 ;
+
+}   
+
+.count-text {
+
+        font-size: 18px;
+
+        font-weight: normal;
+
+        margin-top: 10px;
+
+        margin-bottom: 0;
+
+        text-align: center;
+
+        
+
+    }
+
+.fa-2x {
+
+        margin: 0 auto;
+
+        float: none;
+
+        display: table;
+
+      }
+
+
+
+/*Design icons menu*/
+
+.meniu-icons{
+
+  margin: 0 auto;
+
+  float:none;
+
+  font-size:19px;
+
+  margin-right:5px;
+
+}
+
+.meniu-icons-principal{
+
+  margin:0 auto;
+
+  float:none;
+
+  font-size:18px;
+
+  margin-right:5px;
+
+}
+.meniu-iconsr{
+  margin: 0 auto;
+  float:none;
+  font-size:19px;
+  margin-left:6px;
+  transform: rotateY(180deg);
+}
+.toggle-icons{
+
+  margin:0 auto;
+
+  float:none;
+
+  font-size:18px;
+
+  -webkit-transition: all 0.3s;
+
+  -o-transition: all 0.3s;
+
+  transition: all 0.3s;
+
+}
+
+.toggle-icons:hover{
+
+  color: #f8b739 ;
+
+  -webkit-transition: all 0.3s;
+
+  -o-transition: all 0.3s;
+
+  transition: all 0.3s;
+
+}
+
+
+
+/*Vizualizare pacienti*/
+
+.form-content{
+
+  padding:10px;
+
+  border-left: 1px solid #1b3685;
+
+  border-right: 1px solid #1b3685;
+
+  border-bottom: 1px solid #1b3685;
+
+  background-color: #1b3685	;
+
+}
+
+.form-content p{
+
+  color:#1b3685;
+
+  font-size:16px;
+
+}
+
+.form-content label{
+
+  color:#fff;
+
+  font-size:16px;
+
+}
+
+.form-content table{
+
+  color:var(--orangeP) !important;
+
+}
+
+.titleVP{
+
+  color:#1b3685;
+
+  border-bottom: 1px solid #1b3685;
+
+}
+
+/* Formular add*/
+
+.subtitleadjustment {	
+
+  font-size: 28px;	
+
+  font-style:bold;	
+
+  color:#1b3685;	
+
+  text-align: center;	
+
+}	
+
+.btn-btn-primary{	
+
+  align-self : center;	
+
+  background-color: #1b3685;	
+
+  border-color:  #1b3685;	
+
+}
+
+.subtitleadjustment input{
+
+  border: 1px solid #fff;
+
+}
+/* Lista de madicametne */
+.list-group-item{
+    background-color:#1b3685;
+    color:#fff;
+}
+.badge{
+    background-color:#f8b739;
+    color: #1b3685;
+}
+
+/* Harta */
+
+#table-offline{
+	display:none;
+}
+.farma{
+ max-width:100px;
+
+}
+.pozitionare{
+	margin-top:5%;
+}
+.sus{
+ max-width:100px;
+}
+.dreapta{
+ max-width:100px;
+}
+.stanga{
+ max-width:100px;
+}
+.pat{
+	 max-width:100px;
+}
+.pat1{
+	max-width:100px;
+	
+}
+.patleg,.susleg,.farmaleg,.stangaleg,.dreaptaleg,.dsensleg{
+	max-width:50px;
+}
